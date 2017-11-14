@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.column > .ui.card {
+  text-align: center;
+}
+
+.ui.card {
+  /* width: 130px; */
+  height: 190px;
+}
+
+.ui.card > .content{
+  padding: 0;
+  height: 100%;
+  text-align: center;
+}
+
+.ui.card > .content > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.ui.card:first-child, .ui.card:last-child {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ui.container.game-actions,
+.ui.container.score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
